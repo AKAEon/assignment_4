@@ -224,3 +224,13 @@ The results are as follows：
 |107    |39 |M     |scientist |60466|
 
 only showing top 10 rows
+```
+    # Stop the session
+    spark.stop()
+```
+
+After saving the python script, run it using the code in PuTTY.
+
+````
+spark-submit --packages com.datastax.spark:spark-cassandra-connector_2.11:2.3.0 assignment4.py
+````
